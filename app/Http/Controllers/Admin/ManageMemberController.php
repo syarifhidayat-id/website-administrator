@@ -15,7 +15,7 @@ class ManageMemberController extends Controller
 
     public function __construct()
     {
-        $this->middleware('user-access');
+        $this->middleware('auth');
     }
 
     /**
