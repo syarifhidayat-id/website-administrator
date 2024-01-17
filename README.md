@@ -12,10 +12,27 @@
 - cp .env.exampe .env
 - composer install/ composer update
 - php artisan key:generate
-- php artisan migrate
+- php artisan migrate/ import db_webtest
 - php artisan storage:link
 - npm install && npm run dev
 - php artisan serve
+
+## Documentation
+
+- Form login
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/images/img1.png" width="400" alt="Laravel Logo"></a></p>
+
+- Form Registrsi
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/images/img2.png" width="400" alt="Laravel Logo"></a></p>
+
+- Form Dashboard
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/images/img3.png" width="400" alt="Laravel Logo"></a></p>
+
+- Form Data Member
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/images/img4.png" width="400" alt="Laravel Logo"></a></p>
+
+- Form Json List
+<p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/images/img5.png" width="400" alt="Laravel Logo"></a></p>
 
 ## About Laravel
 
