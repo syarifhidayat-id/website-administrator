@@ -15,15 +15,14 @@ return new class extends Migration
             $table->id();
             $table->string('no_identitas', 16);
             $table->string('name');
-            $table->string('no_hp', 13);
-            $table->date('tanggal_lahir');
-            $table->char('jenis_kelamin', 1);
+            $table->string('no_hp', 13)->nullable();
+            $table->date('tanggal_lahir')->nullable();
+            $table->char('jenis_kelamin', 1)->nullable();
             $table->string('username')->unique();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->tinyInteger('type')->default(0);
-            /* Users: 0=>User, 1=>Admin */
             $table->text('foto')->nullable();
             $table->rememberToken();
             $table->timestamps();
