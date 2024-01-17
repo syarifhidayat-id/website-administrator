@@ -11,6 +11,7 @@
 - git clone https://github.com/syarifhidayat-id/website-administrator.git
 - cp .env.exampe .env
 - composer install/ composer update
+- php artisan key:generate
 - php artisan migrate
 - php artisan storage:link
 - npm install && npm run dev
