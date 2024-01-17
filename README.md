@@ -34,6 +34,16 @@
 - Form Json List
 <p align="center"><a href="javascript:void(0)" target="_blank"><img src="public/styles/images/img5.png" width="400" alt="Laravel Logo"></a></p>
 
+## User Test Login
+
+- Admin
+  username/email : admin/ admin@admin.com
+  password : admin123
+
+- User
+  username/email : user/ user@user.com
+  password : user1234
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
