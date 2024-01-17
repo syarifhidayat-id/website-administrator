@@ -18,15 +18,6 @@
 
 
     <section class="content">
-        @if (session('status'))
-            <script>
-                Swal.fire(
-                    'Messages!',
-                    'Data berhasil dibuat...',
-                    'success'
-                );
-            </script>
-        @endif
         <div class="box box-warning">
             <div class="box-header with-border">
                 <h3 class="box-title">Data Member</h3>
