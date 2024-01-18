@@ -134,7 +134,8 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-xs-12 text-left">
-                                                <p>{{ Auth::user()->type == '0' ? 'User' : 'Admin' }}</p>
+                                                <p>{{ Auth::user()->type }}</p>
+                                                {{-- <p>{{ Auth::user()->type == '0' ? 'User' : 'Admin' }}</p> --}}
                                             </div>
                                         </div>
                                         <br>
